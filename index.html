@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>株式会社KOKKE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>株式会社KOKKE｜プロジェクトの失敗を笑って防ぐ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>株式会社KOKKE</h1>
-  <p>GitHub Pages 表示成功！</p>
+
+<header class="header">
+  <div class="logo">KOKKE</div>
+  <nav>
+    <a href="#service">事業内容</a>
+    <a href="#about">会社概要</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>プロジェクトの失敗を、<br><span>笑って防ぐ。</span></h1>
+    <p>
+      株式会社KOKKEは、SIerの失敗知識を武器に、<br>
+      炎上・地雷・手戻りを未然に防ぐ専門会社です。
+    </p>
+    <a href="#contact" class="btn">お問い合わせ</a>
+  </div>
+
+  <div class="hero-image">
+    <!-- コッケイくん画像差し替え -->
+    <img src="kokkei.png" alt="コッケイくん">
+  </div>
+</section>
+
+<section id="service" class="section">
+  <h2>事業内容</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>📝 やらかし設計書</h3>
+      <p>
+        要件定義・設計で起きがちな<br>
+        「あとで燃えるポイント」を事例化。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 失敗知識DB</h3>
+      <p>
+        SIer現場の失敗を体系化。<br>
+        属人化しないナレッジ共有。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🔍 要件定義レビュー代行</h3>
+      <p>
+        第三者視点で「揉める・燃える」<br>
+        箇所を事前に洗い出します。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🎓 失敗ベース新人研修</h3>
+      <p>
+        正解よりも失敗を学ぶ。<br>
+        現場で生きる研修プログラム。
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section light">
+  <h2>株式会社KOKKEについて</h2>
+  <p class="about-text">
+    私たちは「失敗は隠すものではなく、共有すべき資産」だと考えています。<br>
+    SIer出身だからこそ分かるリアルな失敗を、<br>
+    笑いと学びに変えて次の成功へつなげます。
+  </p>
+</section>
+
+<section id="contact" class="section">
+  <h2>お問い合わせ</h2>
+  <p>お気軽にご相談ください。</p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="会社名">
+    <input type="email" placeholder="メールアドレス">
+    <textarea placeholder="お問い合わせ内容"></textarea>
+    <button type="submit">送信</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© 2026 株式会社KOKKE</p>
+</footer>
+
 </body>
 </html>
